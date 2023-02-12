@@ -1,8 +1,11 @@
 #!/usr/bin/python3
-""" Class State """
+"""[models/state module for HBnB Holberton's project]
+    """
 from models.base_model import BaseModel
 
 
 class State(BaseModel):
-    """ State class that inherits BaseModel"""
+    """[State class]
+    inherits from BaseModel
+    """
     name = ""

@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-""" Class Review """
+"""[module/review module]"""
 from models.base_model import BaseModel
 
 
 class Review(BaseModel):
-    """ Review class that inherits BaseModel """
+    """[Review class]"""
     place_id = ""
     user_id = ""
     text = ""
